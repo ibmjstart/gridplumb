@@ -1,0 +1,47 @@
+.container {
+	position: absolute;
+	width: 100%;
+}
+
+.box {
+	border-color: black;
+    text-align: center;
+    background-color: white;
+    z-index: 100;
+    position: absolute;
+    border: 3px solid;    
+}
+
+.sourseNode, .potentialitySourse:hover {    
+    border-color: rgb(81, 204, 40);
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.active {
+	border-color: blue;
+}
+
+.box_hover, ._jsPlumb_target_hover, ._jsPlumb_source_hover {
+	border-color: rgb(255,159,64);
+}

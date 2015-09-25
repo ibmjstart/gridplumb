@@ -1,0 +1,28 @@
+/*! gridster.js - v0.5.6 - 2014-09-25
+* http://gridster.net/
+* Copyright (c) 2014 ducksboard; Licensed MIT */
+
+.gridster {
+    position:relative;
+}
+
+.gridster .gs-w{
+    z-index: 100;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.gridster .preview-holder {
+    z-index: 1;
+    position: absolute;
+    background-color: #b7b7b7;
+}
+
+.gridster .player-revert {
+    z-index: 10!important;    
+}
+
+.gridster .dragging {
+    z-index: 10!important;   
+}
