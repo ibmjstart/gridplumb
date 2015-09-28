@@ -1,0 +1,5 @@
+---
+applications:
+- name: gridplumb
+  stack: cflinuxfs2
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
